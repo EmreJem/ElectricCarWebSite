@@ -1,0 +1,507 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.sidenav {
+    border-radius: 00px;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0px;
+    background: rgba( 245, 238, 238, 0.2 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 8.5px );
+-webkit-backdrop-filter: blur( 8.5px );
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 35px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover,
+.offcanvas a:focus {
+    color: #f1f1f1;
+}
+
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px !important;
+    margin-left: 50px;
+}
+span{
+    justify-content: end;
+    background-size: cover;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+img {
+    object-fit: cover;
+    object-position: center;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #060211;
+}
+
+nav {
+    margin-top: 1rem;
+}
+
+.nav-link {
+    margin-left: 2rem;
+    font-size: 20px;
+    color: white;
+}
+
+.nav-link:hover {
+    color: #306AD9;
+}
+
+.temp {
+    position: relative;
+    color: grey;
+}
+
+.hero {
+    overflow-y: hidden;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    position: relative;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.hero::before {
+    position: absolute;
+    content: "";
+    width: 750px;
+    height: 750px;
+    top: 0;
+    left: -481px;
+
+    background: radial-gradient(circle, rgb(9, 172, 201) 7%, rgb(20, 142, 212) 15%, rgba(38, 159, 184, 0)75%);
+}
+
+.hero::after {
+    position: absolute;
+    content: "";
+    width: 750px;
+    height: 750px;
+    bottom: -5vh;
+    right: -481px;
+    background: radial-gradient(circle, rgb(9, 172, 201) 7%, rgb(20, 142, 212) 15%, rgba(38, 159, 184, 0)75%);
+}
+
+.daire1 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #2dce93;
+    transition: all 0.3s ease 0s;
+    border-radius: 100%;
+}
+
+.daire1:hover {
+    box-shadow: 0px 0px 20px 5px #2dce93;
+    border: 2px solid rgba(255, 255, 255, 0.541);
+
+    background-color: #09ca83;
+}
+
+.daire2:hover {
+    border: 2px solid rgba(255, 255, 255, 0.425);
+    background-color: #2dce93;
+}
+
+.daire2 {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    display: flex;
+    width: 80px;
+    height: 80px;
+    transition: all 0.3s ease 0s;
+
+    border: 2px solid #049C64;
+    border-radius: 100%;
+}
+
+.daire2:active {
+    background-color: #2dce93;
+
+}
+
+.start-text {
+    font-size: 1rem;
+    font-weight: 500;
+    position: absolute;
+    top: 28px;
+    left: 12px;
+}
+
+.know-button {
+    width: 150px;
+    height: 55px;
+    border-radius: 10px;
+    color: white;
+    background-color: #306AD9;
+}
+
+.card-text-ust {
+    margin-bottom: 1rem;
+    color: rgb(255, 255, 255) !important;
+
+}
+
+.card-body {
+    position: relative;
+}
+
+.card-text-alt {
+    color: rgb(255, 255, 255) !important;
+
+}
+
+.img-card {
+    right: 1rem;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+.card-text-area {
+
+    padding: 70px 70px;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+    background-color: rgb(255, 255, 255);
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #306AD9 !important;
+}
+
+.bosluk {
+    margin-bottom: 12rem;
+}
+
+.bosluk2 {
+    margin-bottom: 22rem;
+}
+
+.img-features {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: 0;
+}
+
+.features-car {
+    z-index: 5;
+}
+
+
+
+.radio-group {
+    display: flex;
+    align-items: center;
+}
+
+label {
+    margin-right: 16px;
+}
+
+input[type="radio"] {
+    display: none;
+transition: all 0.3s ease 0s;
+
+}
+
+.radio-button {
+    display: inline-block;
+    border: 2px solid black;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 8px;
+transition: all 0.3s ease 0s;
+
+    background-color: black;
+    color: white;
+}
+
+
+input[type="radio"]:checked+.radio-button {
+transition: all 0.3s ease 0s;
+    box-shadow: 0px 0px 20px 7px darkblue;
+    border-radius: 18px;
+    border-color: #306AD9;
+    background-color: #306AD9;
+    color: black;
+}
+
+#car1 #car2 #car3 #car4 #car5 {
+    display: block;
+}
+ .car:hover{
+transition: all 0.3s ease 0s;
+
+    box-shadow: 0px 0px 20px 9px rgba(31, 31, 136, 0.575);
+
+}
+.car{
+    border-radius: 10px;
+}
+
+.alan {
+    height: 450px;
+}
+
+.subs {
+    position: relative!important;
+    width: 100%;
+    height: 500px;
+}
+
+.subs-text {
+    top: 0px;
+    color: white;
+}
+
+.subs-parag {
+    word-wrap: break-word;
+    color: rgb(180, 180, 180);
+    top: 100px;
+    width: 450px;
+}
+
+.subs-alan {
+    padding: 95px 0px;
+}
+
+.subs-button {
+    border: transparent;
+    width: 200px;
+    top: 320px;
+    height: 60px;
+    border-radius: 5px;
+    color: white;
+    background-color: #306AD9;
+}
+
+.porsh {
+    bottom: 150px;
+}
+.card-area{
+    justify-content: end;
+    display: flex;
+}
+
+@media (min-width:990px){
+    .nav-img{
+        display: none!important;
+    }
+}
+@media (max-width:1500px) {
+    .col-car-det {
+        width: 12.333333%;
+    }
+}
+
+@media (max-width:1200px) {
+    .car-img {
+        margin-left: 2rem !important;
+    }
+
+    .col-car-det {
+        width: 21.333333%;
+    }
+}
+
+@media (max-width:990px) {
+    .nav-link{
+        display: none;
+    }
+    .col-select {
+        width: 50% !important;
+    }
+
+    .bosluk2 {
+        margin-bottom: 40rem;
+    }
+
+    .porsh {
+        right: 0;
+    }
+
+    .subs-parag {
+        word-wrap: break-word;
+        color: rgb(180, 180, 180);
+        top: 100px;
+        width: 278px;
+        font-size: 14px;
+    }
+
+}
+@media (max-width:770px){
+    .card-col {
+        text-align: center;
+        width: 100%!important;
+    }
+    .hero::after {
+        position: absolute;
+        content: "";
+        width: 750px;
+        height: 750px;
+        bottom: -5vh;
+        right: -582px;
+        background: radial-gradient(circle, rgb(9, 172, 201) 7%, rgb(20, 142, 212) 15%, rgba(38, 159, 184, 0)75%);
+    }
+    .hero::before {
+        position: absolute;
+        content: "";
+        width: 750px;
+        height: 750px;
+        top: 0;
+        left: -602px;
+        background: radial-gradient(circle, rgb(9, 172, 201) 7%, rgb(20, 142, 212) 15%, rgba(38, 159, 184, 0)75%);
+    }
+    .card-col{
+        width: 100%!important;
+    }
+    .card-area{
+        justify-content: center;
+    }
+}
+@media (max-width:570px){
+    .col-car-det {
+        width: 33.333333%;
+    }
+}
+@media (max-width:515px){
+    .col-6{
+        width: 100%;
+    }
+    .hero::after {
+        position: absolute;
+        content: "";
+        width: 750px;
+        height: 750px;
+        bottom: -5vh;
+        right: -679px;
+        background: radial-gradient(circle, rgb(9, 172, 201) 7%, rgb(20, 142, 212) 15%, rgba(38, 159, 184, 0)75%);
+    }
+    .hero::before {
+        position: absolute;
+        content: "";
+        width: 850px;
+        height: 750px;
+        top: 0;
+        left: -725px;
+        background: radial-gradient(circle, rgb(9, 172, 201) 7%, rgb(20, 142, 212) 15%, rgba(38, 159, 184, 0)75%);
+    }
+    .col-sm-2{
+        width: 33.33333%;
+        margin-top: 2rem;
+        text-align: center;
+    }
+    .col-select {
+        width: 100% !important;
+    }
+    .bosluk2 {
+        margin-bottom: 82rem;
+    }
+    .subs-button {
+        border: transparent;
+        width: 200px;
+        left: 0px;
+        top: 195px;
+        height: 60px;
+        border-radius: 5px;
+        color: white;
+        background-color: #306AD9;
+    }
+    .subs-parag {
+        text-align: center;
+        top: 14px;
+        width: 100%;
+        text-align: center;
+        word-wrap: break-word;
+        color: rgb(180, 180, 180);
+        top: 100px;
+        width: 278px;
+        font-size: 14px;
+    }
+    .subs-alan {
+        text-align: center;
+        padding: 0px 0px;
+
+    }
+    .porsh{
+        bottom: 0px;
+    }
+    .col-subs{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .img-card{
+        width: 100%;
+        right: 0px;
+    }
+}
+@media (max-width:375px){
+    label{
+        margin-right: 0px!important;
+    }
+    .col-car-det {
+        width: 33.333333%;
+    }
+    .temp {
+        font-size: 12px;
+        position: relative;
+        color: grey;
+    }
+    .subs-alan {
+        text-align: center;
+        padding: 0px 0px;
+    }
+    .subs-button {
+        border: transparent;
+        width: 200px;
+        top: 195px;
+        height: 60px;
+        border-radius: 5px;
+        color: white;
+        background-color: #306AD9;
+    }
+    .porsh {
+        bottom: 0px;
+    }
+}
