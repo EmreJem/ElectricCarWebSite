@@ -63,6 +63,7 @@ img {
 }
 
 body {
+    cursor: url(img/cursor.png),auto;
     font-family: 'Montserrat', sans-serif;
     background-color: #060211;
 }
@@ -349,7 +350,8 @@ th{
 }
 td{
     color: rgb(211, 211, 211);
-
+    padding-bottom: 1rem;
+    padding-top: 0.5rem;
 }
 
 
