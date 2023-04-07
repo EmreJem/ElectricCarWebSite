@@ -104,7 +104,7 @@ nav {
     top: -53px;
     left: -580px;
 
-    background: radial-gradient(circle, rgb(60 156 173 / 71%) 7%, rgba(73, 107, 170, 0.92) 15%, rgb(0 0 0)75%);
+    background: radial-gradient(circle, rgb(60 156 173 / 71%) 7%, rgba(73, 107, 170, 0.92) 15%, rgba(0, 0, 0, 0)75%);
 }
 
 .hero::after {
@@ -114,7 +114,7 @@ nav {
     height: 895px;
     bottom: -5vh;
     right: -550px;
-    background: radial-gradient(circle, rgb(60 156 173 / 71%) 7%, rgba(67, 96, 158, 0.92) 15%, rgb(0 0 0)75%);
+    background: radial-gradient(circle, rgb(60 156 173 / 71%) 7%, rgba(67, 96, 158, 0.92) 15%, rgba(0, 0, 0, 0)75%);
 }
 
 .daire1 {
@@ -411,6 +411,15 @@ td{
 
 }
 @media (max-width:770px){
+    .hero {
+        overflow-y: hidden;
+        width: 100%;
+        height: 122vh;
+        background-color: black;
+        position: relative;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
     .card-col {
         text-align: center;
         width: 100%!important;
@@ -505,6 +514,7 @@ td{
 
     }
     .porsh{
+        width: 300px;
         bottom: 0px;
     }
     .col-subs{
@@ -518,6 +528,15 @@ td{
     }
 }
 @media (max-width:375px){
+    .hero {
+        overflow-y: hidden;
+        width: 100%;
+        height: 132vh;
+        background-color: black;
+        position: relative;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
     label{
         margin-right: 0px!important;
     }
