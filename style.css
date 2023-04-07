@@ -99,22 +99,22 @@ nav {
 .hero::before {
     position: absolute;
     content: "";
-    width: 750px;
-    height: 750px;
-    top: 0;
-    left: -481px;
+    width: 945px;
+    height: 895px;
+    top: -53px;
+    left: -580px;
 
-    background: radial-gradient(circle, rgb(9, 172, 201) 7%, rgb(20, 142, 212) 15%, rgba(38, 159, 184, 0)75%);
+    background: radial-gradient(circle, rgb(60 156 173 / 71%) 7%, rgba(73, 107, 170, 0.92) 15%, rgb(0 0 0)75%);
 }
 
 .hero::after {
     position: absolute;
     content: "";
-    width: 750px;
-    height: 750px;
+    width: 945px;
+    height: 895px;
     bottom: -5vh;
-    right: -481px;
-    background: radial-gradient(circle, rgb(9, 172, 201) 7%, rgb(20, 142, 212) 15%, rgba(38, 159, 184, 0)75%);
+    right: -550px;
+    background: radial-gradient(circle, rgb(60 156 173 / 71%) 7%, rgba(67, 96, 158, 0.92) 15%, rgb(0 0 0)75%);
 }
 
 .daire1 {
@@ -322,6 +322,47 @@ transition: all 0.3s ease 0s;
     justify-content: end;
     display: flex;
 }
+
+
+.footer-hero{
+    height: auto!important;
+}
+
+.footer-text{
+    z-index: 2;
+    position: relative;
+    color: rgb(211, 211, 211);
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.footer-icon{
+    z-index: 22 ;
+    position: relative;
+    margin-right: 1.3rem;
+}
+th{
+    z-index: 22 ;
+    position: relative;
+    color: white;
+    font-size: 25px;
+}
+td{
+    color: rgb(211, 211, 211);
+
+}
+
+
+.copyright{
+    position: relative;
+    z-index: 22;
+    color: rgb(211, 211, 211);
+
+    font-size: 15px;
+}
+
+
+
 
 @media (min-width:990px){
     .nav-img{
