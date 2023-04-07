@@ -288,6 +288,10 @@ input[type=radio]:checked + .radio-button {
   background-color: #306AD9;
 }
 
+.car-slide {
+  width: 275px;
+}
+
 .porsh {
   bottom: 150px;
 }
